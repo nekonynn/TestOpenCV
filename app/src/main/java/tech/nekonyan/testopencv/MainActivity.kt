@@ -94,7 +94,7 @@ class MainActivity : Activity(), CvCameraViewListener2 {
 
             // No explanation needed, we can request the permission.
             ActivityCompat.requestPermissions(this,
-                arrayOf(Manifest.permission.CALL_PHONE),
+                arrayOf(Manifest.permission.CAMERA),
                 100)
             // }
         }
