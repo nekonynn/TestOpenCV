@@ -14,11 +14,13 @@ so manually move them:
 * javadoc\help-doc.html
 * javadoc\index-all.html
 * javadoc\index.html
+* javadoc\mymath.js
 * javadoc\org\
 * javadoc\org\opencv\
 * javadoc\org\opencv\android\
 * javadoc\org\opencv\android\BaseLoaderCallback.html
 * javadoc\org\opencv\android\Camera2Renderer.html
+* javadoc\org\opencv\android\CameraActivity.html
 * javadoc\org\opencv\android\CameraBridgeViewBase.CvCameraViewFrame.html
 * javadoc\org\opencv\android\CameraBridgeViewBase.CvCameraViewListener.html
 * javadoc\org\opencv\android\CameraBridgeViewBase.CvCameraViewListener2.html
@@ -30,6 +32,7 @@ so manually move them:
 * javadoc\org\opencv\android\CameraRenderer.html
 * javadoc\org\opencv\android\FpsMeter.html
 * javadoc\org\opencv\android\InstallCallbackInterface.html
+* javadoc\org\opencv\android\JavaCamera2View.JavaCameraSizeAccessor.html
 * javadoc\org\opencv\android\JavaCamera2View.html
 * javadoc\org\opencv\android\JavaCameraView.JavaCameraSizeAccessor.html
 * javadoc\org\opencv\android\JavaCameraView.html
@@ -111,6 +114,7 @@ so manually move them:
 * javadoc\org\opencv\features2d\MSER.html
 * javadoc\org\opencv\features2d\ORB.html
 * javadoc\org\opencv\features2d\Params.html
+* javadoc\org\opencv\features2d\SimpleBlobDetector.html
 * javadoc\org\opencv\features2d\package-frame.html
 * javadoc\org\opencv\features2d\package-summary.html
 * javadoc\org\opencv\features2d\package-tree.html
@@ -222,10 +226,10 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => openCVLib410\src\main\AndroidManifest.xml
-* res\ => openCVLib410\src\main\res\
-* src\ => openCVLib410\src\main\java\
-* src\org\opencv\engine\OpenCVEngineInterface.aidl => openCVLib410\src\main\aidl\org\opencv\engine\OpenCVEngineInterface.aidl
+* AndroidManifest.xml => openCVLib411\src\main\AndroidManifest.xml
+* res\ => openCVLib411\src\main\res\
+* src\ => openCVLib411\src\main\java\
+* src\org\opencv\engine\OpenCVEngineInterface.aidl => openCVLib411\src\main\aidl\org\opencv\engine\OpenCVEngineInterface.aidl
 
 Next Steps:
 -----------
